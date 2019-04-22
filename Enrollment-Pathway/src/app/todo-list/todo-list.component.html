@@ -1,0 +1,44 @@
+<div>
+  <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '14px' }"></ngx-loading>
+
+  <div class="card">
+    <div class="card-header">
+      <h4 class="card-title">Enrollment Pathway</h4>
+    </div>
+    <!-- <div class="card-body">
+      <button class="btn btn-sm btn-primary">Set Performance Targets</button>
+
+
+    </div> -->
+  </div>
+
+  <div class="card">
+    <!-- <h3 class="card-header">
+      Workout Entries
+      <a [routerLink]="['/workouts', 'new']" class="btn btn-sm btn-primary float-right">Add New Entry</a>
+    </h3> -->
+    <div class="card-body">
+
+      <table class="table table-striped">
+        <thead>
+          <th>id</th>
+          <th>Title</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let todo of todos">
+            <td>{{todo.id}}</td>
+            <td>{{todo.title}}</td>
+            <!-- <td>{{entry.distance}}</td> -->
+            <td>
+              <a [routerLink]="['/todos', todo.id]" class="btn btn-info btn-sm mr-2">Detail</a>
+            </td>
+
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </div>
+
+
+</div>

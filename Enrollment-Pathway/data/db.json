@@ -1,0 +1,738 @@
+{
+  "users": [
+    {
+      "userid": 0,
+      "username": "rashid"
+    },
+    {
+      "userid": 1,
+      "username": "Yaw-shing"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1",
+      "title": "Rutgers NetID, Email(ScarletMail) Activation and other Services",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "2",
+      "title": "View and Print your Admission Letter",
+      "notes1": "",
+      "notes2": "",
+      "notes3": "",
+      "notes4": "",
+      "notes5": "",
+      "notes6": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "3",
+      "title": "Pre-Arrival Seminar",
+      "notes1": "Watch these seminars to get the information you need to succeed on your way to Rutgers University! Topics will include I-20s/visas, health services, housing, and more! Please ask your parents or guardians to watch with you.",
+      "notes2": "Mapping Your Arrival and Applying for a Visa",
+      "notes3": "This video covers information on what to do before leaving home, introduce to your immigration documents, and steps to apply for an F-1 Visa. This video also covers what to expect when you arrive to Rutgers.",
+      "notes4": "Staying in Legal Status",
+      "notes5": "This video covers information on F-1 and J-1 visa regulations, services available at the Rutgers Global - International Student/Scholar Services office, and your rights and responsibilities while in the US.",
+      "notes6": "Living on Campus",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "4",
+      "title": "Rutgers ID Card",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "5",
+      "title": "Placement Test",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "6",
+      "title": "Academic Planning & Advising",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "7",
+      "title": "New Student Orientation Program",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "8",
+      "title": "SOAR (Student Orientation, Advisement and Registration)",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "9",
+      "title": "SOAR Preparation",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "10",
+      "title": "Immunizations",
+      "notes": "Prior to your enrollment, you need to meet the health and immunization requirements mandated by New Jersey state law.",
+      "startDate": "Sunday, February 1, 2018 1:30 PM",
+      "dueDate": "Friday, December 30, 2019 10:07 AM",
+      "completed": false,
+      "starred": false,
+      "important": true,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "11",
+      "title": "New Student Online Modules",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "12",
+      "title": "Parent/Guardian Contact Information for Family-Focused Communications",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "13",
+      "title": "Recommended Activities",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "14",
+      "title": "Final Transcript",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "15",
+      "title": "University Code of Student Conduct(Student Code of Conduct)",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "16",
+      "title": "Rutgers Global - International Student/Scholar Services",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "16",
+      "title": "RU 1st for First-Generation Students",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "17",
+      "title": "Explore, Discover, Connect - Living-Learning and Thematic Communities",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "18",
+      "title": "Advanced Placement",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "19",
+      "title": "Housing/Dining",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "20",
+      "title": "Go Rutgers",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "21",
+      "title": "Emergency Contact",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "22",
+      "title": "U.S. Military Service",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "23",
+      "title": "Leadership Program for Incoming Students: Camp UKnight, Discovery Program and Leadership Living Learning Community",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "24",
+      "title": "'Q-mmunity' Extended LGBTQA Orientation Experience",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "25",
+      "title": "Lesbian, Gay, Bisexual, Transgender, Queer and Questioning(LGBTQ) Resources",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },{
+      "id": "27",
+      "title": "Academic Intergrity",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "28",
+      "title": "Title IX",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "29",
+      "title": "Veteran Affairs",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "30",
+      "title": "Office Of Disability Services",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "31",
+      "title": "getINVOLVED",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "32",
+      "title": "myRUN",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "33",
+      "title": "Office of International Student and Scholar Services",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "34",
+      "title": "First Year Student Checklist",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "35",
+      "title": "Transfer Student Checklist",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "36",
+      "title": "Athletics",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "37",
+      "title": "Cultural/Religious",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "38",
+      "title": "ROTC Programs",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "39",
+      "title": "Music",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "40",
+      "title": "Financial Aid",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "41",
+      "title": "Authorized User Access",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "42",
+      "title": "Term Bill",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "43",
+      "title": "Electronic Direct Deposit",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "44",
+      "title": "Douglass Residential College - for commuters and residents",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "45",
+      "title": "Nontraditional Student",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "46",
+      "title": "Interest - Local City and Area Information",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "47",
+      "title": "Undocumented Information",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "48",
+      "title": "Student Health Insurance-Mandatory",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "49",
+      "title": "Disability Services",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "50",
+      "title": "Online Directory",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "51",
+      "title": "Parking and Transportation",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "52",
+      "title": "Rutgers Barnes and Noble",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "53",
+      "title": "Student Abroad",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    },
+    {
+      "id": "54",
+      "title": "Change of Plans",
+      "notes": "",
+      "startDate": null,
+      "dueDate": null,
+      "completed": false,
+      "starred": false,
+      "important": false,
+      "deleted": false,
+      "tags": [2]
+    }
+  ],
+  "filters": [
+    {
+      "id": "1",
+      "handle": "to_be_done",
+      "title": "To be done",
+      "icon": "today"
+    },
+    {
+      "id": "2",
+      "handle": "priority",
+      "title": "Priority",
+      "icon": "error"
+    },
+    {
+      "id": "3",
+      "handle": "done",
+      "title": "Done",
+      "icon": "check"
+    }
+  ],
+  "tags": [
+    {
+      "id": "1",
+      "handle": "required",
+      "title": "Required",
+      "color": "#F44336"
+    },
+    {
+      "id": "2",
+      "handle": "orientation",
+      "title": "Orientation",
+      "color": "#FF9800"
+    },
+    {
+      "id": "3",
+      "handle": "health",
+      "title": "Health",
+      "color": "#0091EA"
+    },
+    {
+      "id": "4",
+      "handle": "campus_life",
+      "title": "Campus Life",
+      "color": "#9C27B0"
+    },
+    {
+      "id": "5",
+      "handle": "international",
+      "title": "International",
+      "color": "#388E3C"
+    },
+    {
+      "id": "6",
+      "handle": "money_matters",
+      "title": "Money Matters",
+      "color": "#F44336"
+    },
+    {
+      "id": "7",
+      "handle": "interest",
+      "title": "Interest",
+      "color": "#FF9800"
+    }
+  ]
+}
+
+
+
