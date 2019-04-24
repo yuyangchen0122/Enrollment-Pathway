@@ -10,14 +10,18 @@ import { TodoListComponent } from './todo-list/todo-list.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HttpClientModule } from '@angular/common/http';
 import { EPApiService } from 'src/app/services/epapi.service';
-import { TodoListDetailsComponent } from './todo-list-details/todo-list-details.component';
+import { RutgersNetidEmailActivationComponent } from './required-items/rutgers-netid-email-activation/rutgers-netid-email-activation.component';
+import { ViewAndPrintYourAddmissionLetterComponent } from './required-items/view-and-print-your-addmission-letter/view-and-print-your-addmission-letter.component';
+import { RutgersIdCardComponent } from './required-items/rutgers-id-card/rutgers-id-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoListComponent,
     NavMenuComponent,
-    TodoListDetailsComponent
+    RutgersNetidEmailActivationComponent,
+    ViewAndPrintYourAddmissionLetterComponent,
+    RutgersIdCardComponent
   ],
   imports: [
     BrowserModule,

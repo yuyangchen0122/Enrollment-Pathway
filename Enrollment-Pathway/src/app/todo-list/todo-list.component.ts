@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { EPApiService } from '../services/epapi.service';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import {TodoListDetailsComponent} from '../todo-list-details/todo-list-details.component';
 
 @Component({
   selector: 'app-todo-list',
