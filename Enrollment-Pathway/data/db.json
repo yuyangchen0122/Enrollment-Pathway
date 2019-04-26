@@ -38,6 +38,7 @@
     },
     {
       "id": "3",
+      "titlelink": "pre-arrival",
       "title": "Pre-Arrival Seminar",
       "notes": "",
       "startDate": null,
@@ -77,6 +78,7 @@
     {
       "id": "6",
       "title": "Academic Planning and Advising and Registration",
+      "titlelink": "planning-advising",
       "notes": "You will meet with an academic adviser to choose your first-semester courses and talk about your interests and goals. Click on the icon for more information about your school's academic planning and advising process.",
       "startDate": null,
       "dueDate": null,
@@ -89,6 +91,7 @@
     {
       "id": "7",
       "title": "New Student Orientation Program",
+      "titlelink": "orientation",
       "notes": "The Rutgers University–New Brunswick New Student Orientation Program is a dynamic and interactive program that provides incoming students with essential information. All students are expected to sign up for and attend an orientation program.",
       "startDate": null,
       "dueDate": null,
@@ -101,6 +104,7 @@
     {
       "id": "8",
       "title": "SOAR (Student Orientation, Advisement and Registration)",
+      "titlelink": "soar",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -113,6 +117,7 @@
     {
       "id": "9",
       "title": "SOAR Preparation",
+      "titlelink": "soar-preparation",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -164,6 +169,7 @@
     {
       "id": "13",
       "title": "Recommended Activities",
+      "titlelink": "recommended-activities",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -189,6 +195,7 @@
     {
       "id": "15",
       "title": "University Code of Student Conduct(Student Code of Conduct)",
+      "titlelink": "code-of-conduct",
       "notes": "By accepting admission, you are also accepting the rights and responsibilities of the University's social and academic community. We encourage you to familiarize yourself with our Student Code of Conduct in order to understand the University's values, mission and principles.",
       "startDate": null,
       "dueDate": null,
@@ -201,6 +208,7 @@
     {
       "id": "16",
       "title": "Rutgers Global - International Student/Scholar Services",
+      "titlelink": "rutgers-global",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -213,6 +221,7 @@
     {
       "id": "16",
       "title": "RU 1st for First-Generation Students",
+      "titlelink": "first-generation",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -225,6 +234,7 @@
     {
       "id": "17",
       "title": "Explore, Discover, Connect - Living-Learning and Thematic Communities",
+      "titlelink": "explore-discover-connect",
       "notes": "The Department of Residence Life offers a multitude of on-campus living options to incoming first-year students that allow them to make new friends, become a part of a close community of peers and successfully transition into Rutgers. Students in these residential programs share similar academic, cultural, or language interests and explore them together.",
       "startDate": null,
       "dueDate": null,
@@ -237,6 +247,7 @@
     {
       "id": "18",
       "title": "Advanced Placement",
+      "titlelink": "advanced-placement",
       "notes": "Once Advanced Placement (AP) exam results are available in July, the formal evaluation of AP exams, including credits and course equivalencies, will be available here. If you have not already done so, please direct the College Board to send your Advanced Placement exam results directly to Rutgers (CEEB 2765): http://www.collegeboard.com/student/testing/ap/exgrd_rep.html",
       "startDate": null,
       "dueDate": null,
@@ -249,6 +260,7 @@
     {
       "id": "19",
       "title": "Housing/Dining",
+      "titlelink": "housing-dining",
       "notes": "Housing is assigned on a first-come, first-served basis. We recommend you submit your housing and/or dining agreement and nonrefundable deposit as soon as possible.",
       "startDate": null,
       "dueDate": null,
@@ -261,6 +273,7 @@
     {
       "id": "20",
       "title": "Go Rutgers",
+      "titlelink": "go-rutgers",
       "notes": "Join Go Rutgers, our special social network especially for admitted and enrolling students that will enable you to connect with other incoming Rutgers University–New Brunswick students, faculty, and staff to get your questions answered in real time.",
       "startDate": null,
       "dueDate": null,
@@ -286,6 +299,7 @@
     {
       "id": "22",
       "title": "U.S. Military Service",
+      "titlelink": "us-military",
       "notes": "Are you affiliated with U.S. uniformed services in any way? Did you serve in uniform, or are you a family member of a person who served in uniform? Providing this information on the following page can help our veterans' services team connect you with veterans' services, benefits, and community and ease your transition to Rutgers.",
       "startDate": null,
       "dueDate": null,
@@ -298,6 +312,7 @@
     {
       "id": "23",
       "title": "Leadership Program for Incoming Students: Camp UKnight, Discovery Program and Leadership Living Learning Community",
+      "titlelink": "leadership-program",
       "notes": "The Department of Leadership & Experiential Learning offers several programs focused on incoming students including Camp UKnight and the Discovery Program. Camp UKnight and the Discovery Program are summer programs for incoming students interested in leadership and community service opportunities at Rutgers.",
       "startDate": null,
       "dueDate": null,
@@ -310,6 +325,7 @@
     {
       "id": "24",
       "title": "'Q-mmunity' Extended LGBTQA Orientation Experience",
+      "titlelink": "q-mmunity",
       "notes": "An extended one-night orientation experience and leadership retreat designed for incoming first-year and transfer students identifying as Lesbian, Gay, Bisexual, Transgender, Queer, Gender Nonconforming, Asexual or as an Ally.",
       "startDate": null,
       "dueDate": null,
@@ -322,6 +338,7 @@
     {
       "id": "25",
       "title": "Lesbian, Gay, Bisexual, Transgender, Queer and Questioning(LGBTQ) Resources",
+      "titlelink": "lgbtq-resource",
       "notes": "Click on the icon to learn more and get connected. ",
       "startDate": null,
       "dueDate": null,
@@ -332,7 +349,8 @@
       "tags": [2]
     },{
       "id": "27",
-      "title": "Academic Intergrity",
+      "title": "Academic Integrity",
+      "titlelink": "academic-integrity",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -345,6 +363,7 @@
     {
       "id": "28",
       "title": "Title IX",
+      "titlelink": "title-ix",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -357,6 +376,7 @@
     {
       "id": "29",
       "title": "Veteran Affairs",
+      "titlelink": "veteran-affairs",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -369,6 +389,7 @@
     {
       "id": "30",
       "title": "Office Of Disability Services",
+      "titlelink": "disability-services-office",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -381,6 +402,7 @@
     {
       "id": "31",
       "title": "getINVOLVED",
+      "titlelink": "get-involved",
       "notes": "Don't wait until you arrive on campus -- get involved today! Create your profile to explore and access information on Rutgers University–New Brunswick clubs and organizations.",
       "startDate": null,
       "dueDate": null,
@@ -393,6 +415,7 @@
     {
       "id": "32",
       "title": "myRUN",
+      "titlelink": "my-run",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -405,6 +428,7 @@
     {
       "id": "33",
       "title": "Office of International Student and Scholar Services",
+      "titlelink": "international-office",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -417,6 +441,7 @@
     {
       "id": "34",
       "title": "First Year Student Checklist",
+      "titlelink": "first-year-checklist",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -429,6 +454,7 @@
     {
       "id": "35",
       "title": "Transfer Student Checklist",
+      "titlelink": "transfer-student-checklist",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -441,6 +467,7 @@
     {
       "id": "36",
       "title": "Athletics",
+      "titlelink": "athletics",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -453,6 +480,7 @@
     {
       "id": "37",
       "title": "Cultural/Religious",
+      "titlelink": "cultural-religious",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -465,6 +493,7 @@
     {
       "id": "38",
       "title": "ROTC Programs",
+      "titlelink": "rotc-program",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -477,6 +506,7 @@
     {
       "id": "39",
       "title": "Music",
+      "titlelink": "music",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -489,6 +519,7 @@
     {
       "id": "40",
       "title": "Financial Aid",
+      "titlelink": "financial-aid",
       "notes": "File the FAFSA before the Rutgers priority deadline to be considered for all available funding. Nearly all undergraduates who seek financial aid at Rutgers receive assistance.",
       "startDate": null,
       "dueDate": null,
@@ -501,6 +532,7 @@
     {
       "id": "41",
       "title": "Authorized User Access",
+      "titlelink": "authorized-user-access",
       "notes": "Students now have the ability to authorize a third party or parent to make payments on their behalf.",
       "startDate": null,
       "dueDate": null,
@@ -513,6 +545,7 @@
     {
       "id": "42",
       "title": "Term Bill",
+      "titlelink": "term-bill",
       "notes": "Term bills are available online on a rolling basis beginning in July for students entering the university in the fall semester. The specific payment due date will be displayed on your bill. Click on the icon for important information about fall semester term bills.",
       "startDate": null,
       "dueDate": null,
@@ -525,6 +558,7 @@
     {
       "id": "43",
       "title": "Electronic Direct Deposit",
+      "titlelink": "electronic-direct-deposit",
       "notes": "There may be times when you will be entitled to a refund due to financial aid or a reduction of a meal plan, course fee, credit hours, etc. To receive your funds, you must be signed up for Electronic Direct Deposit (ACH). It is a fast, safe and secure way to have your money deposited directly into your bank. Enroll Now",
       "startDate": null,
       "dueDate": null,
@@ -537,6 +571,7 @@
     {
       "id": "44",
       "title": "Douglass Residential College - for commuters and residents",
+      "titlelink": "douglass-residential-college",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -549,6 +584,7 @@
     {
       "id": "45",
       "title": "Nontraditional Student",
+      "titlelink": "nontraditional-student",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -561,6 +597,7 @@
     {
       "id": "46",
       "title": "Interest - Local City and Area Information",
+      "titlelink": "interest",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -573,6 +610,7 @@
     {
       "id": "47",
       "title": "Undocumented Information",
+      "titlelink": "undocumented-information",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -585,6 +623,7 @@
     {
       "id": "48",
       "title": "Student Health Insurance-Mandatory",
+      "titlelink": "health-insurance",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -597,6 +636,7 @@
     {
       "id": "49",
       "title": "Disability Services",
+      "titlelink": "disability-services",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -609,6 +649,7 @@
     {
       "id": "50",
       "title": "Online Directory",
+      "titlelink": "online-directory",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -621,6 +662,7 @@
     {
       "id": "51",
       "title": "Parking and Transportation",
+      "titlelink": "parking-transportation",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -633,6 +675,7 @@
     {
       "id": "52",
       "title": "Rutgers Barnes and Noble",
+      "titlelink": "barnes-noble",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -645,6 +688,7 @@
     {
       "id": "53",
       "title": "Student Abroad",
+      "titlelink": "student-abroad",
       "notes": "",
       "startDate": null,
       "dueDate": null,
@@ -657,6 +701,7 @@
     {
       "id": "54",
       "title": "Change of Plans",
+      "titlelink": "change-of-plans",
       "notes": "We look forward to welcoming you as an enrolling student. However, if your plans have changed and you have decided not to attend any school of Rutgers, please inform us now by clicking on the icon to the left and completing the brief form that follows. This will enable us to update your record to reflect this change, and may allow us to offer your place to a student currently on our wait list.",
       "startDate": null,
       "dueDate": null,
