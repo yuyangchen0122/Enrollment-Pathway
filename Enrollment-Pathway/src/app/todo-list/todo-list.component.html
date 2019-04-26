@@ -27,12 +27,14 @@
         <tbody>
           <tr *ngFor="let todo of todos">
             <td>{{todo.id}}</td>
-            <td>{{todo.title}}</td>
+            <td>
+              <div class="card-title">{{todo.title}}</div>
+              <div class="card-body">{{todo.notes}}</div>
+            </td>
             <!-- <td>{{entry.distance}}</td> -->
             <td>
-              <a [routerLink]="['/todos', todo.id]" class="btn btn-info btn-sm mr-2">Detail</a>
+              <a [routerLink]="['/todos', todo.titlelink]" class="btn btn-info btn-sm mr-2">Detail</a>
             </td>
-
           </tr>
         </tbody>
       </table>

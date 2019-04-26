@@ -13,7 +13,8 @@
     {
       "id": "1",
       "title": "Rutgers NetID, Email(ScarletMail) Activation and other Services",
-      "notes": "",
+      "titlelink": "netID-activation",
+      "notes": "Your NetID is automatically created but you still need to activate it. Activating your NetID and ScarletMail email account are important first steps in accessing and receiving important information about your transition to Rutgers. Most Rutgers services, including the myRutgers portal and instructional applications, are accessed online using this unique identifier known as your NetID.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -25,12 +26,8 @@
     {
       "id": "2",
       "title": "View and Print your Admission Letter",
-      "notes1": "",
-      "notes2": "",
-      "notes3": "",
-      "notes4": "",
-      "notes5": "",
-      "notes6": "",
+      "titlelink": "admission-letter",
+      "notes": "",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -42,12 +39,7 @@
     {
       "id": "3",
       "title": "Pre-Arrival Seminar",
-      "notes1": "Watch these seminars to get the information you need to succeed on your way to Rutgers University! Topics will include I-20s/visas, health services, housing, and more! Please ask your parents or guardians to watch with you.",
-      "notes2": "Mapping Your Arrival and Applying for a Visa",
-      "notes3": "This video covers information on what to do before leaving home, introduce to your immigration documents, and steps to apply for an F-1 Visa. This video also covers what to expect when you arrive to Rutgers.",
-      "notes4": "Staying in Legal Status",
-      "notes5": "This video covers information on F-1 and J-1 visa regulations, services available at the Rutgers Global - International Student/Scholar Services office, and your rights and responsibilities while in the US.",
-      "notes6": "Living on Campus",
+      "notes": "",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -59,7 +51,8 @@
     {
       "id": "4",
       "title": "Rutgers ID Card",
-      "notes": "",
+      "titlelink": "id-card",
+      "notes": "The Rutgers ID Card is the official photo identification card issued for Rutgers University (Camden, Newark, New Brunswick, and RBHS). This photo ID card serves as your primary form of identity verification throughout the university.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -71,7 +64,8 @@
     {
       "id": "5",
       "title": "Placement Test",
-      "notes": "",
+      "titlelink": "placement-test",
+      "notes": "Incoming students may be required to take placement tests before meeting with an academic adviser to select first-semester courses.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -82,8 +76,8 @@
     },
     {
       "id": "6",
-      "title": "Academic Planning & Advising",
-      "notes": "",
+      "title": "Academic Planning and Advising and Registration",
+      "notes": "You will meet with an academic adviser to choose your first-semester courses and talk about your interests and goals. Click on the icon for more information about your school's academic planning and advising process.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -95,7 +89,7 @@
     {
       "id": "7",
       "title": "New Student Orientation Program",
-      "notes": "",
+      "notes": "The Rutgers University–New Brunswick New Student Orientation Program is a dynamic and interactive program that provides incoming students with essential information. All students are expected to sign up for and attend an orientation program.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -131,7 +125,8 @@
     {
       "id": "10",
       "title": "Immunizations",
-      "notes": "Prior to your enrollment, you need to meet the health and immunization requirements mandated by New Jersey state law.",
+      "titlelink": "immunizations",
+      "notes": "Prior to your enrollment, you need to meet the health and immunization requirements mandated by New Jersey state laws and university policies. Note: The Enrollment Pathway will not show a check mark to designate completion of this section. Please look for your compliance status in the Student Immunization Portal, Immunization - View History.",
       "startDate": "Sunday, February 1, 2018 1:30 PM",
       "dueDate": "Friday, December 30, 2019 10:07 AM",
       "completed": false,
@@ -143,7 +138,8 @@
     {
       "id": "11",
       "title": "New Student Online Modules",
-      "notes": "",
+      "titlelink": "online-modules",
+      "notes": "All incoming students are required to complete these two online learning modules and are encouraged to complete them before arriving to orientation.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -155,7 +151,8 @@
     {
       "id": "12",
       "title": "Parent/Guardian Contact Information for Family-Focused Communications",
-      "notes": "",
+      "titlelink": "parent-family-information",
+      "notes": "Rutgers offers a variety of programs and services for the parents or guardians of new Scarlet Knights. Providing this contact information will ensure that your parent(s) or guardian(s) receive information via email about family-focused services on campus and have the opportunity to receive a bi-monthly family newsletter, but it does not allow access to student record information protected by the Family Educational Rights and Privacy Act (FERPA).",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -179,7 +176,8 @@
     {
       "id": "14",
       "title": "Final Transcript",
-      "notes": "",
+      "titlelink": "final-transcript",
+      "notes": "Click on the icon for the due date and details about your final official transcript and for a complete description of your conditions of enrollment.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -191,7 +189,7 @@
     {
       "id": "15",
       "title": "University Code of Student Conduct(Student Code of Conduct)",
-      "notes": "",
+      "notes": "By accepting admission, you are also accepting the rights and responsibilities of the University's social and academic community. We encourage you to familiarize yourself with our Student Code of Conduct in order to understand the University's values, mission and principles.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -227,7 +225,7 @@
     {
       "id": "17",
       "title": "Explore, Discover, Connect - Living-Learning and Thematic Communities",
-      "notes": "",
+      "notes": "The Department of Residence Life offers a multitude of on-campus living options to incoming first-year students that allow them to make new friends, become a part of a close community of peers and successfully transition into Rutgers. Students in these residential programs share similar academic, cultural, or language interests and explore them together.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -239,7 +237,7 @@
     {
       "id": "18",
       "title": "Advanced Placement",
-      "notes": "",
+      "notes": "Once Advanced Placement (AP) exam results are available in July, the formal evaluation of AP exams, including credits and course equivalencies, will be available here. If you have not already done so, please direct the College Board to send your Advanced Placement exam results directly to Rutgers (CEEB 2765): http://www.collegeboard.com/student/testing/ap/exgrd_rep.html",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -251,7 +249,7 @@
     {
       "id": "19",
       "title": "Housing/Dining",
-      "notes": "",
+      "notes": "Housing is assigned on a first-come, first-served basis. We recommend you submit your housing and/or dining agreement and nonrefundable deposit as soon as possible.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -263,7 +261,7 @@
     {
       "id": "20",
       "title": "Go Rutgers",
-      "notes": "",
+      "notes": "Join Go Rutgers, our special social network especially for admitted and enrolling students that will enable you to connect with other incoming Rutgers University–New Brunswick students, faculty, and staff to get your questions answered in real time.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -275,7 +273,8 @@
     {
       "id": "21",
       "title": "Emergency Contact",
-      "notes": "",
+      "titlelink": "emergency-contact",
+      "notes": "Please provide your cell phone number and emergency contact information in the event of an emergency (campus closing or a campus safety issue).",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -287,7 +286,7 @@
     {
       "id": "22",
       "title": "U.S. Military Service",
-      "notes": "",
+      "notes": "Are you affiliated with U.S. uniformed services in any way? Did you serve in uniform, or are you a family member of a person who served in uniform? Providing this information on the following page can help our veterans' services team connect you with veterans' services, benefits, and community and ease your transition to Rutgers.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -299,7 +298,7 @@
     {
       "id": "23",
       "title": "Leadership Program for Incoming Students: Camp UKnight, Discovery Program and Leadership Living Learning Community",
-      "notes": "",
+      "notes": "The Department of Leadership & Experiential Learning offers several programs focused on incoming students including Camp UKnight and the Discovery Program. Camp UKnight and the Discovery Program are summer programs for incoming students interested in leadership and community service opportunities at Rutgers.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -311,7 +310,7 @@
     {
       "id": "24",
       "title": "'Q-mmunity' Extended LGBTQA Orientation Experience",
-      "notes": "",
+      "notes": "An extended one-night orientation experience and leadership retreat designed for incoming first-year and transfer students identifying as Lesbian, Gay, Bisexual, Transgender, Queer, Gender Nonconforming, Asexual or as an Ally.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -323,7 +322,7 @@
     {
       "id": "25",
       "title": "Lesbian, Gay, Bisexual, Transgender, Queer and Questioning(LGBTQ) Resources",
-      "notes": "",
+      "notes": "Click on the icon to learn more and get connected. ",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -382,7 +381,7 @@
     {
       "id": "31",
       "title": "getINVOLVED",
-      "notes": "",
+      "notes": "Don't wait until you arrive on campus -- get involved today! Create your profile to explore and access information on Rutgers University–New Brunswick clubs and organizations.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -490,7 +489,7 @@
     {
       "id": "40",
       "title": "Financial Aid",
-      "notes": "",
+      "notes": "File the FAFSA before the Rutgers priority deadline to be considered for all available funding. Nearly all undergraduates who seek financial aid at Rutgers receive assistance.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -502,7 +501,7 @@
     {
       "id": "41",
       "title": "Authorized User Access",
-      "notes": "",
+      "notes": "Students now have the ability to authorize a third party or parent to make payments on their behalf.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -514,7 +513,7 @@
     {
       "id": "42",
       "title": "Term Bill",
-      "notes": "",
+      "notes": "Term bills are available online on a rolling basis beginning in July for students entering the university in the fall semester. The specific payment due date will be displayed on your bill. Click on the icon for important information about fall semester term bills.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -526,7 +525,7 @@
     {
       "id": "43",
       "title": "Electronic Direct Deposit",
-      "notes": "",
+      "notes": "There may be times when you will be entitled to a refund due to financial aid or a reduction of a meal plan, course fee, credit hours, etc. To receive your funds, you must be signed up for Electronic Direct Deposit (ACH). It is a fast, safe and secure way to have your money deposited directly into your bank. Enroll Now",
       "startDate": null,
       "dueDate": null,
       "completed": false,
@@ -658,7 +657,7 @@
     {
       "id": "54",
       "title": "Change of Plans",
-      "notes": "",
+      "notes": "We look forward to welcoming you as an enrolling student. However, if your plans have changed and you have decided not to attend any school of Rutgers, please inform us now by clicking on the icon to the left and completing the brief form that follows. This will enable us to update your record to reflect this change, and may allow us to offer your place to a student currently on our wait list.",
       "startDate": null,
       "dueDate": null,
       "completed": false,
