@@ -64,6 +64,7 @@ import { ParkingTransportationComponent } from './todo-component/parking-transpo
 import { BarnesNobleComponent } from './todo-component/barnes-noble/barnes-noble.component';
 import { StudentAbroadComponent } from './todo-component/student-abroad/student-abroad.component';
 import { ChangeOfPlansComponent } from './todo-component/change-of-plans/change-of-plans.component';
+import { SidebarsComponent } from './sidebars/sidebars.component';
 
 @NgModule({
   declarations: [
@@ -123,7 +124,8 @@ import { ChangeOfPlansComponent } from './todo-component/change-of-plans/change-
     ParkingTransportationComponent,
     BarnesNobleComponent,
     StudentAbroadComponent,
-    ChangeOfPlansComponent
+    ChangeOfPlansComponent,
+    SidebarsComponent
   ],
   imports: [
     BrowserModule,
