@@ -1,3 +1,48 @@
-<p>
-  us-military works!
-</p>
+<div class="container">
+
+  <h1 class="display-4 text-danger">U.S. Military Service </h1>
+  <p class="lead">Have you ever served on active duty in the U.S. Armed Forces, military Reserves, or National Guard? (Active duty does not include training for the Reserves, National Guard, or ROTC, but DOES include activation, for example, for the Persian Gulf War or the wars in Afghanistan and Iraq.) 
+  </p>
+
+  <form [formGroup]="radioGroupForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="1" type="radio" class="custom-control-input" value="1" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="1">No. I have never served in the U.S. Armed Forces, military Reserves, or National Guard, or ROTC</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="2" type="radio" class="custom-control-input" value="2" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="2">No. I am/was a member of the Reserves. National Guard, or ROTC, but I have never served on active duty.</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="3" type="radio" class="custom-control-input" value="3" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="3">Yes. I am a veteran of the U.S. Armed Force (e.g. Air Force, Army, Marines, Navy).</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="4" type="radio" class="custom-control-input" value="4" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="4">Yes. I am an active duty member of the U.S. Armed Force (e.g. Air Force, Army, Marines, Navy).</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="5" type="radio" class="custom-control-input" value="5" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="5">Yes. I am/was a member of the Reserves or National Guard who served on active duty (e.g. Persian Gulf War, Afghanistan, Iraq).</label>
+      </div>
+    </div>
+
+
+    <div class="form-group">
+      <button class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+</div>

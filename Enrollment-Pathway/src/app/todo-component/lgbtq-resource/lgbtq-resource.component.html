@@ -1,3 +1,28 @@
-<p>
-  lgbtq-resource works!
-</p>
+<div class="container">
+  <h1 class="display-4 text-danger">Lesbian, Gay, Bisexual, Transgender, Queer and Questioning (LGBTQ) Resources</h1>
+  <p class="lead">The Center for Social Justice Education and LGBT Communities helps to connect LGBTQ and Ally students with educational, social, and leadership development programs and activities.</p>
+  <p class="lead"><strong>Check appropriate boxes below to receive more information.</strong></p>
+  <form [formGroup]="checkboxGroupForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="1" name="1" formControlName="1">
+        <label class="custom-control-label" for="1">Would you like to receive more information about upcoming programming and student organizations for the LGBTQA community?</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="2" name="2" formControlName="2">
+        <label class="custom-control-label" for="2">Would you like more information on housing opportunities open to LGBTQA students?</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="3" name="3" formControlName="3">
+        <label class="custom-control-label" for="3">Would you like more specific information on navigating the campus (i.e. healthcare, housing, restrooms/locker rooms, preferred name use) as a transgender/gender non-conforming student?</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <button class="btn btn-danger">Submit</button>
+    </div>
+  </form>
+</div>

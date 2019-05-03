@@ -10,9 +10,6 @@ import { TodoListComponent } from './todo-list/todo-list.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HttpClientModule } from '@angular/common/http';
 import { EPApiService } from 'src/app/services/epapi.service';
-import { RutgersNetidEmailActivationComponent } from './todo-component/netID-activation/rutgers-netid-email-activation.component';
-import { ViewAndPrintYourAddmissionLetterComponent } from './todo-component/admission-letter/view-and-print-your-addmission-letter.component';
-import { RutgersIdCardComponent } from './todo-component/id-card/rutgers-id-card.component';
 import { PlacementTestComponent } from './todo-component/placement-test/placement-test.component';
 import { ImmunizationComponent } from './todo-component/immunization/immunization.component';
 import { EmergencyContactComponent } from './todo-component/emergency-contact/emergency-contact.component';
@@ -65,15 +62,16 @@ import { BarnesNobleComponent } from './todo-component/barnes-noble/barnes-noble
 import { StudentAbroadComponent } from './todo-component/student-abroad/student-abroad.component';
 import { ChangeOfPlansComponent } from './todo-component/change-of-plans/change-of-plans.component';
 import { SidebarsComponent } from './sidebars/sidebars.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {RutgersNetidEmailActivationComponent} from './todo-component/netID-activation/rutgers-netid-email-activation.component';
+import {ViewAndPrintYourAddmissionLetterComponent} from './todo-component/admission-letter/view-and-print-your-addmission-letter.component';
+import {RutgersIdCardComponent} from './todo-component/id-card/rutgers-id-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoListComponent,
     NavMenuComponent,
-    RutgersNetidEmailActivationComponent,
-    ViewAndPrintYourAddmissionLetterComponent,
-    RutgersIdCardComponent,
     PlacementTestComponent,
     ImmunizationComponent,
     EmergencyContactComponent,
@@ -125,13 +123,18 @@ import { SidebarsComponent } from './sidebars/sidebars.component';
     BarnesNobleComponent,
     StudentAbroadComponent,
     ChangeOfPlansComponent,
-    SidebarsComponent
+    SidebarsComponent,
+    RutgersNetidEmailActivationComponent,
+    ViewAndPrintYourAddmissionLetterComponent,
+    RutgersIdCardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgxLoadingModule.forRoot({})
+    NgxLoadingModule.forRoot({}),
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
     EPApiService

@@ -4,7 +4,7 @@ import { EPApiService } from '../services/epapi.service';
 @Component({
   selector: 'app-sidebars',
   templateUrl: './sidebars.component.html',
-  styleUrls: ['./sidebars.component.scss']
+  styleUrls: ['./sidebars.component.css']
 })
 export class SidebarsComponent implements OnInit {
 

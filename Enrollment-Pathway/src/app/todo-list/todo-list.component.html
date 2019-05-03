@@ -4,6 +4,10 @@
   <div class="card">
     <div class="card-header">
       <h4 class="card-title">Enrollment Pathway</h4>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
     <!-- <div class="card-body">
       <button class="btn btn-sm btn-primary">Set Performance Targets</button>
@@ -29,7 +33,15 @@
             <td>{{todo.id}}</td>
             <td>
               <div class="card-title">{{todo.title}}</div>
-              <div class="card-body">{{todo.notes}}</div>
+              <div class="card-body">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" value="">
+                    {{todo.notes}}
+                  </label>
+                </div>
+                <!--{{todo.notes}}-->
+              </div>
             </td>
             <!-- <td>{{entry.distance}}</td> -->
             <td>

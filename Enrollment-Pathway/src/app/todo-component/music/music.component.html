@@ -1,3 +1,204 @@
-<p>
-  music works!
-</p>
+<div class="container">
+  <h1 class="display-4 text-danger">Student Life</h1>
+  <p class="lead">
+    Getting involved in on-campus activities assists new students with their transition to college life. It helps in meeting new students and making new friends; identifying new interests; developing new skills; having access to more resources and services; and increasing satisfaction with the first year experience.
+  </p>
+  <p class="lead">
+    All of our choirs and the Marching Band are open to ALL Rutgers students, not just music majors. These are also openings in all other ensembles each year for non-majors.
+  </p>
+  <p class="lead"><strong>Musical Interests</strong></p>
+  <form [formGroup]="checkboxGroupForm" (ngSubmit)="onSubmit()">
+    <table class="table table-hover" style="width:50%">
+      <tbody>
+        <tr>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="allMixedChoirs" name="allMixedChoirs" formControlName="allMixedChoirs">
+                <label class="custom-control-label" for="allMixedChoirs">All Mixed Choirs</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="windEnsembleConcertBand" name="windEnsembleConcertBand" formControlName="windEnsembleConcertBand">
+                <label class="custom-control-label" for="windEnsembleConcertBand">Wind Ensemble/Concert Band</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="gleeClubMen" name="gleeClubMen" formControlName="gleeClubMen">
+                <label class="custom-control-label" for="gleeClubMen">Glee Club (Men)</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="voorheesChoirWomen" name="voorheesChoirWomen" formControlName="voorheesChoirWomen">
+                <label class="custom-control-label" for="voorheesChoirWomen">Voorhees Choir (Women)</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="marchingBand" name="marchingBand" formControlName="marchingBand">
+                <label class="custom-control-label" for="marchingBand">Marching Band</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="pepBand" name="pepBand" formControlName="pepBand">
+                <label class="custom-control-label" for="pepBand">Pep Band</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="jazzEnsemblesCombos" name="jazzEnsemblesCombos" formControlName="jazzEnsemblesCombos">
+                <label class="custom-control-label" for="jazzEnsemblesCombos">Jazz Ensembles Combos</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="universityOrchestras" name="universityOrchestras" formControlName="universityOrchestras">
+                <label class="custom-control-label" for="universityOrchestras">University Orchestras</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="lead">
+      Please identify any of the following ALL-State groups in which you have participated.
+    </p>
+    <table class="table table-hover" style="width:50%">
+      <tbody>
+        <tr>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="band" name="band" formControlName="band">
+                <label class="custom-control-label" for="band">Band</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="choir" name="choir" formControlName="choir">
+                <label class="custom-control-label" for="choir">Choir</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="jazzband" name="jazzband" formControlName="jazzband">
+                <label class="custom-control-label" for="jazzband">Jazz Band</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="orchestra" name="orchestra" formControlName="orchestra">
+                <label class="custom-control-label" for="orchestra">Orchestra</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <form [formGroup]="radioGroupForm">
+      <p class="lead">
+        Vocalists, if you know your voice range, please identify the part you sing. It is not a requirement to know this. Our professors will assist you in your technique and knowledge when you participate!
+      </p>
+      <table class="table table-hover" style="width:50%">
+        <tbody>
+        <tr>
+          <td>
+            <!--<form [formGroup]="checkboxGroupForm">-->
+            <div class="form-group">
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="soprano" name="choice" value="1" formControlName="choice">
+                <label class="custom-control-label" for="soprano">Soprano</label>
+              </div>
+            </div>
+            <!--</form>-->
+          </td>
+          <td>
+            <div class="form-group">
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="alto" name="choice" value="alto" formControlName="choice">
+                <label class="custom-control-label" for="alto">Alto</label>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="tenor" name="choice" value="tenor" formControlName="choice">
+                <label class="custom-control-label" for="tenor">Tenor</label>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="form-group">
+              <div class="custom-control custom-radio">
+                <input type="radio" class="custom-control-input" id="bass" name="choice" value="bass" formControlName="choice">
+                <label class="custom-control-label" for="bass">Bass</label>
+              </div>
+            </div>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </form>
+    <div class="form-group">
+      <button class="btn btn-danger">Submit</button>
+    </div>
+  </form>
+  <p class="lead">
+    Back to main page
+  </p>
+</div>

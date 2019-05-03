@@ -55,6 +55,7 @@ import { ParkingTransportationComponent } from './todo-component/parking-transpo
 import { BarnesNobleComponent } from './todo-component/barnes-noble/barnes-noble.component';
 import { StudentAbroadComponent } from './todo-component/student-abroad/student-abroad.component';
 import { ChangeOfPlansComponent } from './todo-component/change-of-plans/change-of-plans.component';
+import {SidebarsComponent} from './sidebars/sidebars.component';
 
 
 const routes: Routes = [
@@ -113,7 +114,8 @@ const routes: Routes = [
   { path: 'todos/parking-transportation', component: ParkingTransportationComponent },
   { path: 'todos/barnes-noble', component: BarnesNobleComponent },
   { path: 'todos/study-abroad', component: StudentAbroadComponent },
-  { path: 'todos/change-of-plans', component: ChangeOfPlansComponent }
+  { path: 'todos/change-of-plans', component: ChangeOfPlansComponent },
+  { path: 'sidebars', component: SidebarsComponent }
 ];
 
 @NgModule({

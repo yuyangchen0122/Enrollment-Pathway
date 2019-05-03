@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-us-military',
@@ -7,9 +8,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UsMilitaryComponent implements OnInit {
 
-  constructor() { }
+  submitted = false;
+  public radioGroupForm: FormGroup;
+
+  constructor(
+    private fb: FormBuilder
+  ) { }
 
   ngOnInit() {
+    this.radioGroupForm = this.fb.group({
+      choice: ['1', [Validators.required]],
+    });
   }
 
+  get myForm() {
+    return this.radioGroupForm.get('choice');
+  }
+
+  onSubmit() {
+    this.submitted = true;
+    if (!this.radioGroupForm.valid) {
+      return false;
+    } else {
+      alert(JSON.stringify(this.radioGroupForm.value));
+    }
+  }
 }

@@ -1,3 +1,21 @@
-<p>
-  change-of-plans works!
-</p>
+<div class="container">
+  <h1 class="display-4 text-danger">Change Of Plans</h1>
+  <p class="lead">Please confirm your changed enrollment plans for the fall 2019 semester by clicking on the appropriate box below.</p>
+  <form [formGroup]="radioGroupForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" id="1" name="choice" value="1" formControlName="choice">
+        <label class="custom-control-label" for="1">I will not be enrolling at any division of Rutgers University for the fall 2019 semester. I understand that withdrawing from Rutgers will cancel my enrollment, and that this information will be shared with Rutgers' academic deans and student services.</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" id="2" name="choice" value="2" formControlName="choice">
+        <label class="custom-control-label" for="2">I came to this page by mistake. I do plan to enroll at Rutgers University for the fall 2019 semester. Please continue my current registration and enable me to return to the previous page.</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <button class="btn btn-danger">Submit</button>
+    </div>
+  </form>
+</div>

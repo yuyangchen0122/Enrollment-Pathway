@@ -1,3 +1,80 @@
-<p>
-  cultural-religious works!
-</p>
+<div class="container">
+  <h1 class="display-4 text-danger">Student Life</h1>
+  <h2>Religious/Cultural Affiliation</h2>
+  <p class="lead">
+    Recognized Chaplaincies on campus are committed to the spiritual development of the students at Rutgers University. Our Chaplaincies provide opportunities for students to get involved in such things as programs, service initiatives, and lectures. If you would like to learn about ways to get involved with one of the chaplaincies on campus, please check the appropriate box.
+  </p>
+  <form [formGroup]="radioGroupForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="1" type="radio" class="custom-control-input" value="1" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="1">Buddhist</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="2" type="radio" class="custom-control-input" value="2" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="2">Jewish</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="3" type="radio" class="custom-control-input" value="3" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="3">Muslim</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="4" type="radio" class="custom-control-input" value="4" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="4">Native American</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="5" type="radio" class="custom-control-input" value="5" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="5">Catholic</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="6" type="radio" class="custom-control-input" value="6" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="6">Eastern Orthodox</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="7" type="radio" class="custom-control-input" value="7" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="7">Protestant</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input id="8" type="radio" class="custom-control-input" value="8" name="choice" formControlName="choice">
+        <label class="custom-control-label" for="8">Other Religion</label>
+      </div>
+    </div>
+
+    <form [formGroup]="checkboxGroupForm">
+      <div class="form-group">
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="check" name="checkbox" formControlName="checkbox">
+          <label class="custom-control-label" for="check">Have you ever held office or been active in any youth group?</label>
+        </div>
+      </div>
+    </form>
+
+
+    <div class="form-group" align="center">
+      <button class="btn btn-danger">Submit</button>
+    </div>
+    <p class="lead">Back to main page</p>
+  </form>
+  <hr>
+</div>
