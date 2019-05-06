@@ -1,3 +1,22 @@
-<p>
-  nontraditional-student works!
-</p>
+<div class="container">
+  <h1 class="display-4 text-danger">Nontraditional Student</h1>
+  <p class="lead"><strong>Musical Interests</strong></p>
+  <p class="lead">Nontraditional students are adult, veteran and/or part-time learners, including returning adults whose formal education has been interrupted, students needing to purse higher education on a part-time basis, post-baccalaureate students pursuing a second undergraduate degree or major, and non-degree students or those students with significant non-academic commitments: being self-supporting, having full-time employment (34 hours/week or more), or having financial dependents. Specialized academic advising, evening classes, and co-curricular programming geared to the needs and interests of returning adult or part-time students is available. Nontraditional students are invited to affiliate with University College, which provides specialized programs and services to promote the academic success of nontraditional students are foster a strong sense of community. Please check below if you want to be considered part of the University College for nontraditional students.</p>
+  <form [formGroup]="radioGroupForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" id="1" name="choice" value="1" formControlName="choice">
+        <label class="custom-control-label" for="1">I would like to be considered a nontraditional student and be a member of the University College.</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" id="2" name="choice" value="2" formControlName="choice">
+        <label class="custom-control-label" for="2">I do not need nontraditional student services at this time.</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <button class="btn btn-danger">Submit</button>
+    </div>
+  </form>
+</div>

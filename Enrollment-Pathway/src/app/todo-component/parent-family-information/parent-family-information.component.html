@@ -5,8 +5,13 @@
   <p class="lead">Additionally, providing this information <strong>does not</strong> grant your parent(s) or guardian access to information related to your student record as protected by the Family Educational Rights and Privacy Act (FERPA). Additional information about your rights as a student under FERPA and the process for granting access to a parent or guardian can be found here. </p>
   <p class="lead">All fields marked with "*" are required. </p>
   <p class="lead"><strong>Parent/Guardian/Family Member 1</strong></p>
-  <form>
-
+  <form [formGroup]="checkboxGroupForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="check" name="check" formControlName="check">
+        <label class="custom-control-label" for="check">Not a U.S. telephone</label>
+      </div>
+    </div>
   </form>
   <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
     <div class="form-group">

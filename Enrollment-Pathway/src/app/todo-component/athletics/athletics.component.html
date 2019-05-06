@@ -1,3 +1,370 @@
-<p>
-  athletics works!
-</p>
+<div class="container">
+  <h1 class="display-4 text-danger">Student Life</h1>
+  <p class="lead">
+    Getting involved in on-campus activities assists new students with their transition to college life. It helps in
+    meeting new students and making new friends; identifying new interests; developing new skills; having access to more
+    resources and services; and increasing satisfaction with the first year experience.
+  </p>
+  <p class="lead"><strong>Athletic Interests</strong></p>
+  <p class="lead">
+    Please identify the sport(s) in which you wish to participate through our intercollegiate (NCAA Division I) sports
+    programs or our recreational sports programs. Recreational sports offerings may depend on student interests.
+  </p>
+  <form [formGroup]="radioGroupForm" (ngSubmit)="onSubmit()">
+    <table class="table table-hover">
+      <thead>
+      <tr>
+        <th scope="col">Intercollegiate</th>
+        <th scope="col">Recreational</th>
+        <th scope="col"></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr class="table-active">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="baseball_men_intercollegiate" name="baseball_men_intercollegiate" value="true" formControlName="baseball_men_intercollegiate">
+              <label class="custom-control-label" for="baseball_men_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="baseball_men_recreational" name="baseball_men_recreational" value="true" formControlName="baseball_men_recreational">
+              <label class="custom-control-label" for="baseball_men_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Baseball (Men)</td>
+      </tr>
+      <tr>
+        <td><div class="form-group">
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="basketball_men_women_intercollegiate" name="basketball_men_women_intercollegiate" value="true" formControlName="basketball_men_women_intercollegiate">
+            <label class="custom-control-label" for="basketball_men_women_intercollegiate"></label>
+          </div>
+        </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="basketball_men_women_recreational" name="basketball_men_women_recreational" value="true" formControlName="basketball_men_women_recreational">
+              <label class="custom-control-label" for="basketball_men_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Basketball (Men and Women)</td>
+      </tr>
+      <tr class="table-primary">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="crew_men_intercollegiate" name="crew_men_intercollegiate" value="true" formControlName="crew_men_intercollegiate">
+              <label class="custom-control-label" for="crew_men_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="crew_men_recreational" name="crew_men_recreational" value="true" formControlName="crew_men_recreational">
+              <label class="custom-control-label" for="crew_men_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Crew (Men)</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="rowing_women_intercollegiate" name="rowing_women_intercollegiate" value="true" formControlName="rowing_women_intercollegiate">
+              <label class="custom-control-label" for="rowing_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="rowing_women_recreational" name="rowing_women_recreational" value="true" formControlName="rowing_women_recreational">
+              <label class="custom-control-label" for="rowing_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Rowing (Women)</td>
+      </tr>
+      <tr class="table-success">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="cross_country_men_women_intercollegiate" name="cross_country_men_women_intercollegiate" value="true" formControlName="cross_country_men_women_intercollegiate">
+              <label class="custom-control-label" for="cross_country_men_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="cross_country_men_women_recreational" name="cross_country_men_women_recreational" value="true" formControlName="cross_country_men_women_recreational">
+              <label class="custom-control-label" for="cross_country_men_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Cross-Country (Men and Women)</td>
+      </tr>
+      <tr class="table-danger">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="fencing_men_women_intercollegiate" name="fencing_men_women_intercollegiate" value="true" formControlName="fencing_men_women_intercollegiate">
+              <label class="custom-control-label" for="fencing_men_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="fencing_men_women_recreational" name="fencing_men_women_recreational" value="true" formControlName="fencing_men_women_recreational">
+              <label class="custom-control-label" for="fencing_men_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Fencing (Men and Women)</td>
+      </tr>
+      <tr class="table-warning">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="field_hockey_women_intercollegiate" name="field_hockey_women_intercollegiate" value="true" formControlName="field_hockey_women_intercollegiate">
+              <label class="custom-control-label" for="field_hockey_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="field_hockey_women_recreational" name="field_hockey_women_recreational" value="true" formControlName="field_hockey_women_recreational">
+              <label class="custom-control-label" for="field_hockey_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Field Hockey (Women)</td>
+      </tr>
+      <tr class="table-info">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="football_men_intercollegiate" name="football_men_intercollegiate" value="true" formControlName="football_men_intercollegiate">
+              <label class="custom-control-label" for="football_men_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="football_men_recreational" name="football_men_recreational" value="true" formControlName="football_men_recreational">
+              <label class="custom-control-label" for="football_men_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Football (Men)</td>
+      </tr>
+      <tr class="table-light">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="golf_men_women_intercollegiate" name="golf_men_women_intercollegiate" value="true" formControlName="golf_men_women_intercollegiate">
+              <label class="custom-control-label" for="golf_men_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="golf_men_women_recreational" name="golf_men_women_recreational" value="true" formControlName="golf_men_women_recreational">
+              <label class="custom-control-label" for="golf_men_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Golf (Men and Women)</td>
+      </tr>
+      <tr class="table-dark">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="gymnastics_women_intercollegiate" name="gymnastics_women_intercollegiate" value="true" formControlName="gymnastics_women_intercollegiate">
+              <label class="custom-control-label" for="gymnastics_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="gymnastics_women_recreational" name="gymnastics_women_recreational" value="true" formControlName="gymnastics_women_recreational">
+              <label class="custom-control-label" for="gymnastics_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Gymnastic (Women)</td>
+      </tr>
+      <tr class="table-active">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="lacrosse_men_women_intercollegiate" name="lacrosse_men_women_intercollegiate" value="true" formControlName="lacrosse_men_women_intercollegiate">
+              <label class="custom-control-label" for="lacrosse_men_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="lacrosse_men_women_recreational" name="lacrosse_men_women_recreational" value="true" formControlName="lacrosse_men_women_recreational">
+              <label class="custom-control-label" for="lacrosse_men_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Lacrosse (Men and Women)</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="soccer_men_women_intercollegiate" name="soccer_men_women_intercollegiate" value="true" formControlName="soccer_men_women_intercollegiate">
+              <label class="custom-control-label" for="soccer_men_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="soccer_men_women_recreational" name="soccer_men_women_recreational" value="true" formControlName="soccer_men_women_recreational">
+              <label class="custom-control-label" for="soccer_men_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Soccer (Men and Women)</td>
+      </tr>
+      <tr class="table-primary">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="softball_women_intercollegiate" name="softball_women_intercollegiate" value="true" formControlName="softball_women_intercollegiate">
+              <label class="custom-control-label" for="softball_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="softball_women_recreational" name="softball_women_recreational" value="true" formControlName="softball_women_recreational">
+              <label class="custom-control-label" for="softball_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Softball (Women)</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="swimming_diving_women_intercollegiate" name="swimming_diving_women_intercollegiate" value="true" formControlName="swimming_diving_women_intercollegiate">
+              <label class="custom-control-label" for="swimming_diving_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="swimming_diving_women_recreational" name="swimming_diving_women_recreational" value="true" formControlName="swimming_diving_women_recreational">
+              <label class="custom-control-label" for="swimming_diving_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Swimming and Diving (Women)</td>
+      </tr>
+      <tr class="table-success">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="swimming_diving_men_intercollegiate" name="swimming_diving_men_intercollegiate" value="true" formControlName="swimming_diving_men_intercollegiate">
+              <label class="custom-control-label" for="swimming_diving_men_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="swimming_diving_men_recreational" name="swimming_diving_men_recreational" value="true" formControlName="swimming_diving_men_recreational">
+              <label class="custom-control-label" for="swimming_diving_men_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Swimming and Diving (Men)</td>
+      </tr>
+      <tr class="table-danger">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="tennis_men_intercollegiate" name="tennis_men_intercollegiate" value="true" formControlName="tennis_men_intercollegiate">
+              <label class="custom-control-label" for="tennis_men_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="tennis_men_recreational" name="tennis_men_recreational" value="true" formControlName="tennis_men_recreational">
+              <label class="custom-control-label" for="tennis_men_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Tennis (Men)</td>
+      </tr>
+      <tr class="table-warning">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="tennis_women_intercollegiate" name="tennis_women_intercollegiate" value="true" formControlName="tennis_women_intercollegiate">
+              <label class="custom-control-label" for="tennis_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="tennis_women_recreational" name="tennis_women_recreational" value="true" formControlName="tennis_women_recreational">
+              <label class="custom-control-label" for="tennis_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Tennis (Women)</td>
+      </tr>
+      <tr class="table-info">
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="track_men_women_intercollegiate" name="track_men_women_intercollegiate" value="true" formControlName="track_men_women_intercollegiate">
+              <label class="custom-control-label" for="track_men_women_intercollegiate"></label>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" class="custom-control-input" id="track_men_women_recreational" name="track_men_women_recreational" value="true" formControlName="track_men_women_recreational">
+              <label class="custom-control-label" for="track_men_women_recreational"></label>
+            </div>
+          </div>
+        </td>
+        <td>Track (Men and Women)</td>
+      </tr>
+      </tbody>
+    </table>
+    <div class="form-group">
+      <button class="btn btn-danger">Submit</button>
+    </div>
+  </form>
+</div>

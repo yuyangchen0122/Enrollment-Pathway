@@ -1,3 +1,26 @@
-<p>
-  disability-services works!
-</p>
+<div class="container">
+  <h1 class="display-4 text-danger">Student Life</h1>
+  <p class="lead"><strong>Students With Disabilities</strong></p>
+  <p class="lead">Students with disabilities interested in receiving accommodations should contact the Office of
+    Disability Services at 848-445-6800, 1-800-852-7899(TTY) or ods@echo.rutgers.edu. If you would like to receive more
+    information about services for students with disabilities, please indicate "Yes". Doing so will enable us to assist
+    you in a timely manner. Information on the Office of Disability Services is available at http://ods.rutgers.edu.
+  </p>
+  <form [formGroup]="radioGroupForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" id="1" name="choice" value="1" formControlName="choice">
+        <label class="custom-control-label" for="1">Yes</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="custom-control custom-radio">
+        <input type="radio" class="custom-control-input" id="2" name="choice" value="2" formControlName="choice">
+        <label class="custom-control-label" for="2">No</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <button class="btn btn-danger">Submit</button>
+    </div>
+  </form>
+</div>

@@ -37,12 +37,12 @@ export class ParentFamilyInformationComponent implements OnInit {
       employer2: ['']
     });
 
-    this.checkboxGroupForm = this.formBuilder.group({
-
+    this.checkboxGroupForm = this.checkboxBuilder.group({
+      check: false
     });
 
-    this.radioGroupForm = this.formBuilder.group({
-
+    this.radioGroupForm = this.radioBuilder.group({
+      choice: ['1', [Validators.required]]
     });
 
     // this.radioGroupForm = this.formBuilder.group({
